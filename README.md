@@ -4,9 +4,10 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
 
 # 置顶 #
 * 本项目是建立在[原教程](https://blog.432100.xyz/index.php/archives/50/)可以正确调用api的**假设**上的，核心是paran/黑幕大佬的py脚本。
-* 本项目只是提供一个自动、免费、无需额外设备的脚本运行方式，换句话说，**就是一台电脑/服务器**。（因为原教程需要服务器/超长时间运转的设备，大部分人都不具备，本项目应运而生）
+* 本项目只是提供一个自动、免费、无需额外设备的脚本运行方式，换句话说，**借用github的电脑/服务器来干活**。（因为原教程需要服务器/超长时间运转的设备，大部分人都不具备，本项目应运而生）
+* 本项目运行依赖**github action**服务，此功能github固有而**非私人提供**的服务器，且整个运行过程只涉及你与github。
 * 请务必先阅读理解[原教程](https://blog.432100.xyz/index.php/archives/50/)的**原理说明、设计理念**。
-* 搬运[原教程](https://blog.432100.xyz/index.php/archives/50/)说法：**不保证一定能续期！不保证一定能续期！不保证一定能续期**！或者说，**只是增大续订可能性**。过期前、后30天都可能续期！！！
+* **不保证一定能续期！不保证一定能续期！不保证一定能续期**！或者说，**只是增大续订可能性**。过期前、后30天都可能续期！！！
 * 若理解并接受上述说明，请接着操作；**若否，请点击浏览器右上角 X 。**
 
 ### 项目说明 ###
@@ -21,7 +22,7 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
 * 普通版地址：https://github.com/wangziyingwen/AutoApi
 * 加密版地址（推荐）：https://github.com/wangziyingwen/AutoApiSecret
 * 模仿人为应用开发版（包含升级步骤）：https://github.com/wangziyingwen/AutoApiSR
-* 超级版地址（测试）： https://github.com/wangziyingwen/AutoApiS
+* 超级版地址： https://github.com/wangziyingwen/AutoApiS
 * **常见错误及解决办法/更新日志**：https://github.com/wangziyingwen/Autoapi-test
 * 网页获取refresh_token小工具（不建议使用）：https://github.com/wangziyingwen/GetAutoApiToken
 * 视频教程：（我操作很慢，自行倍速/快进）
@@ -43,7 +44,9 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
 --------------------------------------------------------------
 
 ### 步骤 ###
-**如果想从AutoApiSecret项目直接升级**
+   *** **有错误/问题请看**:    [常见错误及解决办法/更新日志](https://github.com/wangziyingwen/Autoapi-test) ***   
+
+一，**如果想从AutoApiSecret项目直接升级**
 
   可以把本项目代码下载，然后把里面部分文件更新进AutoApiSecret:
   * 把 AutoApiSecret 的 1.py 删除，再把本项目的1.py 上传上去
@@ -54,7 +57,7 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
   
   * 把 AutoApiSecret 的.github/workflow/autoapi.yml 删除，再把本项目的 .github/workflow/AutoApiSR.yml 上传上去
 
-**如果是以前从未接触AutoApi系列项目的**
+二，**如果是以前从未接触AutoApi系列项目的**
 * 第一步，先大致浏览[原教程](https://blog.432100.xyz/index.php/archives/50/)，了解如何获取应用id、机密、refresh_token 3样东西，以方便接下来的操作。
 
 * 第二步，登陆/新建github账号，回到本项目页面，点击右上角fork本项目的代码到你自己的账号，然后你账号下会出现一个一模一样的项目，接下来的操作均在你的这个项目下进行。（看不到图片/图裂请科学上网）
@@ -146,7 +149,10 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
   代码小白，多包涵！有问题/修改建议可以点击上方issues发布一下，或者PY给我:
   wz.lxh@outlook.com
   
-  建了个Q群：657581700，不过没人
+  Q群：[657581700](https://jq.qq.com/?_wv=1027&k=5FQJbWmV)  （项目相关讨论）
+  
+  tg群：[OneDrive E5](https://t.me/joinchat/OLlK9RsbBlmTYOJS_BU4Mg)   （**非项目相关**讨论！**tg可能不会及时在线回答问题**，任何项目相关的问题或出错请进Q群/邮箱/issue）
+  
   
   最后的最后，再次感谢黑幕/paran大佬
   
